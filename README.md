@@ -17,7 +17,7 @@ The method relies on **time-domain input-output experiments** and does **not req
 The approach combines two computations:
 
 - a **power-iteration-inspired input redesign** to estimate the ν-gap from experimental data, and
-- a **Welch-inspired frequency-domain check** of the admissibility condition, implemented through the winding numbers of the auxiliary functions \(f_1\) and \(f_2\).
+- a **Welch-inspired frequency-domain check** of the admissibility condition, implemented through the winding numbers of the auxiliary functions $f_1$ and $f_2$.
 
 As a baseline, the script also compares the data-driven estimate with MATLAB's `gapmetric` function from the Robust Control Toolbox.
 
@@ -130,7 +130,7 @@ The algorithm then:
 
 1. computes the MATLAB baseline using `gapmetric`,
 2. runs the iterative ν-gap estimator over multiple Monte Carlo realizations,
-3. checks the admissibility condition using the Welch-inspired estimator of \(f_1\) and \(f_2\),
+3. checks the admissibility condition using the Welch-inspired estimator of $f_1$ and $f_2$,
 4. plots the convergence of the estimate, and
 5. reports the dominant excited frequency together with the ground-truth winding numbers.
 
