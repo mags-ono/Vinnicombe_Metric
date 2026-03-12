@@ -14,7 +14,7 @@ Margarita A. Guerrero, Cristian R. Rojas
 This code implements a **data-driven method** to estimate the **Vinnicombe metric** (also known as the **ν-gap metric**) between two discrete-time linear time-invariant systems.
 The method relies on **time-domain input-output experiments** and does **not require an explicit parametric model of the true plant**. Instead, it assumes that a **nominal model** is available and that experiments can be performed on the unknown system.
 
-The approach combines two ingredients:
+The approach combines two computations:
 
 - a **power-iteration-inspired input redesign** to estimate the ν-gap from experimental data, and
 - a **Welch-inspired frequency-domain check** of the admissibility condition, implemented through the winding numbers of the auxiliary functions \(f_1\) and \(f_2\).
