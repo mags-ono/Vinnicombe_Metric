@@ -3,7 +3,7 @@
 This repository contains MATLAB code associated with the paper:
 
 **"Data-Driven Estimation of the Vinnicombe Metric"**  
-Margarita A. Guerrero, Henrik Sandberg and, Cristian R. Rojas  
+Margarita A. Guerrero, Henrik Sandberg, and Cristian R. Rojas  
   📄 [arXiv link: add later]  
   ✅ [Submitted to LCSS-CDC 2026]
 
