@@ -183,7 +183,7 @@ This output indicates that:
 ## Notes
 
 - The script is written for the **SISO** case.
-- The admissibility condition is checked numerically from data using the auxiliary functions \(f_1\) and \(f_2\).
+- The admissibility condition is checked numerically from data using the auxiliary functions $f_1$ and $f_2$.
 - Noise is included in the simulations, while the exact transfer functions are only used for baseline comparison and for the final ground-truth winding-number verification.
 - Additional case studies can be activated directly in the script by uncommenting the corresponding blocks.
 
