@@ -5,7 +5,7 @@ This repository contains MATLAB code associated with the paper:
 **"Data-Driven Estimation of the Vinnicombe Metric"**  
 Margarita A. Guerrero, Henrik Sandberg, and Cristian R. Rojas  
   📄 [arXiv link: add later]  
-  ✅ [Submitted to LCSS-CDC 2026]
+  ✅ [Submitted to the 65th IEEE Conference on Decision and Control]
 
 ---
 
@@ -193,7 +193,12 @@ This output indicates that:
 
 If you use this code in your work, please cite:
 
-> M. A. Guerrero and C. R. Rojas,  
-> “Data-Driven Estimation of the Vinnicombe Metric,”  
-> [venue / status to be added].  
-> [arXiv link to be added]
+```bibtex
+@inproceedings{Guerrero_26,
+  title     = {Data-Driven Estimation of the Vinnicombe Metric},
+  author    = {Guerrero, Margarita A., Sandberg, Henrik, and Rojas, Cristian R.},
+  booktitle = {XXXX},
+  year      = {2026},
+  note      = {Submitted to the 65th IEEE Conference on Decision and Control (CDC). Also available at arXiv:XXXX}
+}
+```
