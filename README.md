@@ -65,14 +65,14 @@ Initializes the spectral accumulator used for the Welch-inspired admissibility c
 Updates the accumulated spectra using the current FFTs of the input and of the two output signals.
 
 ### `specacc_get_frf(acc, eps0)`
-Builds frequency-response estimates \(\hat G_1\) and \(\hat G_2\) from the accumulated spectra.
+Builds frequency-response estimates $\hat{G_1}$ and $\hat{G_2}$ from the accumulated spectra.
 
 ### `check_C_condition_from_acc(acc, tol_f, eps0, do_smooth, smooth_bins)`
-Checks the admissibility condition \((G_0,G)\in\mathcal{C}\) in a data-driven way.
+Checks the admissibility condition $(G_0,G)\in\mathcal{C}$ in a data-driven way.
 It computes the functions
 
-- \(f_1 = 1 + |\hat G_1|^2\),
-- \(f_2 = 1 + \hat G_2 \overline{\hat G_1}\),
+- $f_1=1+|\hat G_1|^2$,
+- $f_2=1+\hat G_2\overline{\hat G_1}\$,
 
 and verifies:
 
